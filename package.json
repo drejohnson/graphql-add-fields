@@ -1,0 +1,25 @@
+{
+  "name": "graphql-add-fields",
+  "version": "1.0.0",
+  "main": "index.cjs.js",
+  "module": "index.js",
+  "homepage": "https://github.com/drejohnson/graphql-add-fields#readme",
+  "author": "Dre Johnson <dre@phreshr.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drejohnson/graphql-add-fields.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup $npm_package_module -o $npm_package_main --f cjs"
+  },
+  "dependencies": {
+    "graphql": "^14.3.1"
+  },
+  "devDependencies": {
+    "rollup": "^1.15.6"
+  }
+}
